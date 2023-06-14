@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tarefas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.tarefa-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.tarefa-item p {
+  margin-right: 10px;
+  
+  
+}
+
+#d1{
+  width: 200px;
+}
+#d2{
+  width: 200px;
+}
+
+#b1{
+  background-color: rgb(228, 59, 59);
+}
+
+.tarefa-item button.starred {
+  color: yellow;
+}
+.star-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.star-button.starred {
+  color: yellow;
+}
+
+.star-button:focus {
+  outline: none;
+}
+
+.button-reset:hover {
+  background-color: inherit;
+  color: inherit;
+}
+#busca1{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  height: 30px;
+}
